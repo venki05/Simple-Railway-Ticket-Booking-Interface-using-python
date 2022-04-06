@@ -40,7 +40,7 @@ while True:
                         print()
                         print(des*40)
                         d.trains[departure_place][destination_place][1]=d.trains[departure_place][destination_place][1]-1
-                        opt=input("Do you want book tickets for your journey once again? If yes enter Y ").lower()
+                        opt=input("Do you want to book tickets for your journey once again? If yes enter Y ").lower()
                         if opt=='y':
                             continue
                         else:
@@ -51,7 +51,7 @@ while True:
                     break
         else:
             print("There are no direct trains at present")
-            opt=input("Do you want book tickets for your journey once again? If yes enter Y ").lower()
+            opt=input("Do you want to book tickets for your journey once again? If yes enter Y ").lower()
             if opt=='y':
                 continue
             else:
@@ -59,7 +59,7 @@ while True:
                 break
     else:
         print("There are no trains departing from this place")
-        opt=input("Do you want book tickets for your journey once again? If yes enter Y ").lower()
+        opt=input("Do you want to book tickets for your journey once again? If yes enter Y ").lower()
         if opt=='y':
             continue
         else:
